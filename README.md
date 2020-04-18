@@ -6,10 +6,10 @@
 * Технологии
 
 #### Описание
-* [Ссылка на макет в Figma](https://alexandrprokhorov1988.github.io/Landing/)
+* [Ссылка на макет в Figma](https://www.figma.com/file/GPLtit8IGdANX8eYWiBN5Q/landing)
 
 #### Инструкция
-* [Ссылка на проект](https://alexandrprokhorov1988.github.io/mesto/)
+* [Ссылка на проект](https://alexandrprokhorov1988.github.io/Landing/)
 
 
 #### Технологии
