@@ -1,0 +1,18 @@
+.projects__card_theme_smart {
+  background-image: url(../../../../images/project-card1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-column: span 6;
+  text-align: right;
+  padding-top: 48px;
+  padding-right: 65px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .projects__card_theme_smart {
+    grid-column: 1;
+    padding-top: 24px;
+    padding-right: 32px;
+  }
+}

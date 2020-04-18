@@ -1,0 +1,13 @@
+.clients__row {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 111px;
+  width: calc(100% - 40px);
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 375px) {
+  .clients__row {
+    width: 100%;
+  }
+}

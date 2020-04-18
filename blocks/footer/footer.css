@@ -1,0 +1,25 @@
+@import url(./__button/footer__button.css);
+@import url(./__container/footer__container.css);
+@import url(./__link/footer__link.css);
+@import url(./__links/footer__links.css);
+@import url(./__list/footer__list.css);
+@import url(./__list-span-accent/footer__list-span-accent.css);
+@import url(./__list-text/footer__list-text.css);
+@import url(./__navigation/footer__navigation.css);
+@import url(./__navigation-title/footer__navigation-title.css);
+@import url(./__list/_type/footer__list_type_paragraf.css);
+@import url(./__nav-container/footer__nav-container.css);
+@import url(./__navigation-title/_type/footer__navigation-title_type_afrianska.css);
+@import url(./__copyright/footer__copyright.css);
+@import url(./__row/footer__row.css);
+@import url(./__background-wrapper/footer__background-wrapper.css);
+
+.footer {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1366px;
+  box-sizing: border-box;
+  background: #5A98D0;
+  position: relative;
+  top: -2px;
+}

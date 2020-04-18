@@ -1,0 +1,14 @@
+.projects__card-title {
+  font-size: 1.75rem;
+  line-height: 2.875rem;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px ) {
+  .projects__card-title {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+  }
+}

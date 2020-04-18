@@ -1,0 +1,12 @@
+.section-title_theme_clients {
+  width: 100%;
+  max-width: 235px;
+  padding-right: 97px;
+}
+
+@media screen and (max-width: 425px) {
+  .section-title_theme_clients {
+    font-size: 2rem;
+    line-height: 2.625rem;
+  }
+}

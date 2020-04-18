@@ -1,0 +1,19 @@
+.header__illustration {
+  width: 100%;
+  max-width: 687px;
+  /*height: 579px;*/
+  object-fit: cover;
+  user-select: none;
+  position: absolute;
+  right: 23px;
+  top: 133px;
+  z-index: -1;
+  transition: all ease 1s;
+}
+
+@media screen and (max-width: 1024px ) {
+  .header__illustration {
+    opacity: 0.5;
+    right: 0;
+  }
+}

@@ -1,0 +1,7 @@
+.footer__background-wrapper {
+  width: calc(100% - 8%);
+  max-width: 1270px;
+  background: #316099;
+  border-radius: 0 200px 0 0;
+  color: #FFFFFF;
+}

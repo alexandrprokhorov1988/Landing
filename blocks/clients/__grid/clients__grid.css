@@ -1,0 +1,16 @@
+.clients__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(235px, 1fr));
+  grid-auto-rows: 128px;
+  width: 100%;
+  max-width: 940px;
+  align-items: center;
+  outline: 30px solid #5A98D0;
+  outline-offset: -5px;
+}
+
+@media screen and (max-width: 320px) {
+  .clients__grid {
+    grid-template-columns: auto;
+  }
+}

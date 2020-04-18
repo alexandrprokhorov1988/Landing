@@ -1,0 +1,20 @@
+.footer__container {
+  max-width: 1073px;
+  width: calc(100% - 16%);
+  padding: 91px 0 96px 16%;
+  border-bottom: 1px solid rgba(255, 255, 255, .4);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  grid-column-gap: 14%;
+  grid-row-gap: 32px;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: calc(100% - 30%);
+  }
+}

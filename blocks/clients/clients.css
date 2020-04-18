@@ -1,0 +1,21 @@
+@import url(./__grid/clients__grid.css);
+@import url(./__text/clients__text.css);
+@import url(./__row/clients__row.css);
+@import url(./__text/_active/clients__text_active.css);
+
+.clients {
+  margin: 0 auto;
+  max-width: 1366px;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  background: #5A98D0;
+  border-radius: 200px 0 0 0;
+  padding: 96px 40px 125px 213px;
+}
+
+@media screen and (max-width: 1280px) {
+  .clients {
+    padding: 96px 16% 125px 16%;
+  }
+}

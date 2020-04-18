@@ -1,0 +1,10 @@
+.footer__list-span-accent {
+  padding-right: 16px;
+}
+
+@media screen and (max-width: 425px) {
+  .footer__list-span-accent {
+    white-space: pre;
+    padding-right: 5px;
+  }
+}

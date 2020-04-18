@@ -1,0 +1,11 @@
+.footer__list {
+  list-style: none;
+}
+
+.footer__list:not(:last-of-type){
+  padding-bottom: 16px;
+}
+
+.footer__list:first-of-type{
+  padding-top: 32px;
+}

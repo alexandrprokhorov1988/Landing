@@ -1,0 +1,9 @@
+.footer__list_type_paragraf {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.footer__list_type_paragraf:not(:last-of-type) {
+  padding-bottom: 24px;
+}

@@ -1,0 +1,17 @@
+.card__text {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  opacity: 0.6;
+  width: calc(100% - 48px*2);
+  padding-top: 16px;
+  margin: 0;
+  font-weight: 800;
+}
+
+@media screen and (max-width: 768px ) {
+  .card__text {
+    width: 100%;
+  }
+}

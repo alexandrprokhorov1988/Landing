@@ -1,0 +1,14 @@
+.projects__card_theme_sparklite {
+  background-image: url(../../../../images/project-card2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-column: span 3;
+  max-width: 422px;
+}
+
+@media screen and (max-width: 768px) {
+  .projects__card_theme_sparklite  {
+    grid-column: 1;
+    max-width: 100%;
+  }
+}

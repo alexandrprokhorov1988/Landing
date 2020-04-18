@@ -1,0 +1,25 @@
+.footer__navigation:not(:last-of-type) {
+  padding-right: 100px;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__navigation {
+    padding-bottom: 100px;
+  }
+
+  .footer__navigation:last-of-type {
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer__navigation:not(:last-of-type) {
+    padding-right: 0;
+  }
+
+  .footer__navigation {
+    width: 100%;
+    word-break: break-word;
+  }
+}
+

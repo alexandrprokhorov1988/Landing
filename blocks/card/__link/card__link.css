@@ -1,0 +1,26 @@
+.card__link {
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #5A98D0;
+  text-decoration: none;
+  vertical-align: middle;
+  position: relative;
+  width: calc(100% - 48px*2);
+  padding-bottom: 48px;
+  margin-top: 32px;
+  font-weight: 800;
+}
+
+.card__link:after {
+  content: url(../../../images/card-link-arrow.svg);
+  position: absolute;
+  top: 4px;
+  left: 107px;
+}
+
+@media screen and (max-width: 768px ) {
+  .card__link {
+    width: 100%;
+  }
+}

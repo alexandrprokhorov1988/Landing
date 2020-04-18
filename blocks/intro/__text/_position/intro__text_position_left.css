@@ -1,0 +1,9 @@
+.intro__text_position_left {
+  justify-self: start;
+}
+
+@media screen and (max-width: 1280px ) {
+  .intro__text_position_left {
+    justify-self: center;
+  }
+}
