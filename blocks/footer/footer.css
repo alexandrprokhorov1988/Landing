@@ -18,6 +18,7 @@
   margin: 0 auto;
   width: 100%;
   max-width: 1366px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   background: #5A98D0;
   position: relative;

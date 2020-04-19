@@ -1,13 +1,18 @@
 .header__illustration {
   width: 100%;
   max-width: 687px;
-  /*height: 579px;*/
+  -o-object-fit: cover;
   object-fit: cover;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
   position: absolute;
   right: 23px;
   top: 133px;
   z-index: -1;
+  -webkit-transition: all ease 1s;
+  -o-transition: all ease 1s;
   transition: all ease 1s;
 }
 

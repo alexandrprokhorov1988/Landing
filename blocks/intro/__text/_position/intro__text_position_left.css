@@ -1,9 +1,11 @@
 .intro__text_position_left {
+  -ms-grid-column-align: start;
   justify-self: start;
 }
 
 @media screen and (max-width: 1280px ) {
   .intro__text_position_left {
+    -ms-grid-column-align: center;
     justify-self: center;
   }
 }

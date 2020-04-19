@@ -4,8 +4,6 @@
   letter-spacing: 0.02em;
 }
 
-
-
 @media screen and (max-width: 375px) {
   .footer__navigation-title_type_afrianska {
     font-size: 1.1rem;

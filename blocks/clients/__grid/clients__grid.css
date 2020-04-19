@@ -1,9 +1,13 @@
 .clients__grid {
+  display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(235px, 1fr));
   grid-auto-rows: 128px;
   width: 100%;
   max-width: 940px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
   outline: 30px solid #5A98D0;
   outline-offset: -5px;
@@ -11,6 +15,7 @@
 
 @media screen and (max-width: 320px) {
   .clients__grid {
+    -ms-grid-columns: auto;
     grid-template-columns: auto;
   }
 }

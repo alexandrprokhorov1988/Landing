@@ -7,9 +7,3 @@
   padding: 64px 16% 64px 16%;
   margin: 0;
 }
-
-
-@media screen and (max-width: 768px) {
-  .footer__copyright{
-  }
-}

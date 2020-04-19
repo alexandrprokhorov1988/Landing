@@ -2,6 +2,7 @@
   background-image: url(../../../../images/project-card1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  -ms-grid-column-span: 6;
   grid-column: span 6;
   text-align: right;
   padding-top: 48px;
@@ -11,6 +12,7 @@
 
 @media screen and (max-width: 768px) {
   .projects__card_theme_smart {
+    -ms-grid-column: 1;
     grid-column: 1;
     padding-top: 24px;
     padding-right: 32px;

@@ -9,12 +9,17 @@
   margin: 0 auto;
   width: calc(100% - 30%);
   max-width: 940px;
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 89px 1fr 89px 1fr 89px 1fr 89px 1fr 89px 1fr;
   grid-template-columns: repeat(6, 1fr);
+  -ms-grid-rows: auto 96px 417px 96px 417px;
   grid-template-rows: auto repeat(2, 417px);
   grid-column-gap: 89px;
   grid-row-gap: 96px;
   padding-bottom: 192px;
+  -webkit-transition: all ease .5s;
+  -o-transition: all ease .5s;
   transition: all ease .5s;
 }
 
@@ -27,7 +32,9 @@
 
 @media screen and (max-width: 768px) {
   .projects {
+    -ms-grid-columns: auto;
     grid-template-columns: auto;
+    -ms-grid-rows: auto 30px auto 30px 217px 30px 217px 30px 217px;
     grid-template-rows: auto auto repeat(3, 217px);
     grid-column-gap: 0;
     grid-row-gap: 30px;

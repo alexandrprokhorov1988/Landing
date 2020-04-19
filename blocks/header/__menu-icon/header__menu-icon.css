@@ -12,6 +12,8 @@
   user-select: none;
   outline: none;
   border: none;
+  -webkit-transition: all ease .1s;
+  -o-transition: all ease .1s;
   transition: all ease .1s;
 }
 

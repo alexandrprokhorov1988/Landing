@@ -1,11 +1,13 @@
-.section-subtitle_theme_projects{
+.section-subtitle_theme_projects {
   color: #1F3F68;
+  -ms-grid-column-span: 4;
   grid-column: span 4;
   max-width: 540px;
 }
 
 @media screen and (max-width: 768px) {
-  .section-subtitle_theme_projects  {
+  .section-subtitle_theme_projects {
+    -ms-grid-column: 1;
     grid-column: 1;
   }
 }

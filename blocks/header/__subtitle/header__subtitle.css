@@ -8,6 +8,8 @@
   padding-left: 15.5%;
   padding-top: 2rem;
   margin: 0;
+  -webkit-transition: all ease .5s;
+  -o-transition: all ease .5s;
   transition: all ease .5s;
   font-weight: 800;
 }

@@ -1,7 +1,6 @@
 .card__img {
   width: 224px;
   height: 197px;
+  -o-object-fit: contain;
   object-fit: contain;
-  /*position: relative;*/
-  /*top: -28px;*/
 }

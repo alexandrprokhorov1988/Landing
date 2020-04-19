@@ -10,6 +10,8 @@
   letter-spacing: 0.04em;
   color: #FFFFFF;
   cursor: pointer;
+  -webkit-transition: all ease .1s;
+  -o-transition: all ease .1s;
   transition: all ease .1s;
   margin-left: 15.5%;
   margin-top: 4.4375rem;
@@ -17,6 +19,7 @@
 }
 
 .header__button:hover {
+  -webkit-box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
   box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
 }
 
