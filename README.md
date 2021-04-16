@@ -1,18 +1,17 @@
 # Верстка по макету
 
 ### Обзор
-* Описание
-* Инструкция
-* Технологии
+* [Описание](#description)
+* [Инструкция](#instructions)
+* [Технологии](#technologies)
 
-#### Описание
+#### <a name="description">Описание</a>
 * [Ссылка на макет в Figma](https://www.figma.com/file/GPLtit8IGdANX8eYWiBN5Q/landing)
 
-#### Инструкция
+#### <a name="instructions">Инструкция</a>
 * [Ссылка на проект](https://alexandrprokhorov1988.github.io/Landing/)
 
-
-#### Технологии
+#### <a name="technologies">Технологии</a>
 * Спецификации HTML, CSS.
 * Страница разработана по методологии компонентного подхода БЭМ. 
 * **Nested БЭМ** структура.  
